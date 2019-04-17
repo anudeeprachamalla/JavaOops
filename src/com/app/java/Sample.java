@@ -9,15 +9,10 @@ public class Sample {
 	void m2() {
 		System.out.println("ganapthy eng clg");
 	}
-
-	void m3() {
-		m2();
-		m1();
-	}
 	public static void main(String[] args) {
 
 		Sample s = new Sample();
-		s.m3();
+		s.m2();
 
 	}
 }
