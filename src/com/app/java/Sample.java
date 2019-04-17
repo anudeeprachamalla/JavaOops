@@ -14,7 +14,10 @@ public class Sample {
 		m2();
 		m1();
 	}
-
+void m4()
+{
+	System.out.println("sr engineering clg");
+}
 	public static void main(String[] args) {
 
 		Sample s = new Sample();
